@@ -1,0 +1,26 @@
+/* Styles for selected rows */
+.table tbody tr.selected-row {
+    background-color: #5ca2e8; /* Light blue color */
+    color: #000; /* Text color to ensure readability */
+  }
+  
+  /* Optional: Add hover effect for rows */
+  .table tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Optional: Style for the commander button */
+  .button-commander {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .button-commander:hover {
+    background-color: #0056b3;
+  }
+  /* ResultsTable.css */
+.selected-row {
+    background-color: #d1e7dd; /* Light green background for selected rows */
+  }
+  
